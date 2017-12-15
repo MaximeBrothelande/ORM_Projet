@@ -43,14 +43,14 @@ namespace Projet_ORM.Exception
     {
 
         /// <summary>
-        /// Initialise une nouvelle instance de la class <see cref="T:ORMProjet.Exceptions.ORMExceptionsDeconnection"/>.
+        /// Initialise une nouvelle instance de la class
         /// </summary>
         public ORMExceptionsDeconnection()
         {
         }
 
         /// <summary>
-        /// Initialise une nouvelle instance de la class <see cref="T:ORMProjet.Exceptions.ORMExceptionsDeconnection"/>.
+        /// Initialise une nouvelle instance de la class
         /// </summary>
         /// <param name="message">Message d'erreur à retourner.</param>
         public ORMExceptionsDeconnection(string message) : base(message)
@@ -58,7 +58,7 @@ namespace Projet_ORM.Exception
         }
 
         /// <summary>
-        /// Initialise une nouvelle instance de la class <see cref="T:ORMProjet.Exceptions.ORMExceptionsDeconnection"/>.
+        /// Initialise une nouvelle instance de la class
         /// </summary>
         /// <param name="message">Message d'erreur à retourner.</param>
         /// <param name="inner">Association de l'exception, de base, complète.</param>
